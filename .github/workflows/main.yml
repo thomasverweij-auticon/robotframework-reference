@@ -19,12 +19,6 @@ jobs:
     - name: robot framework
       run: |
         robot --outputdir results --xunit xunit.xml tests
-    - name: test results
-      uses: dorny/test-reporter@v1
-      with:
-        name: robot results
-        path: results/xunit.xml
-        reporter: java-junit
     - name: upload results
       uses: actions/upload-artifact@v3
       with: 
