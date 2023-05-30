@@ -18,7 +18,12 @@ jobs:
         pip install -r requirements.txt
     - name: robot framework
       run: |
-        robot --outputdir results tests
+        robot --outputdir results --xunit xunit.xml tests
+    - name: test results
+      uses: dorny/test-reporter@v1
+      with:
+        name: robot results
+        path: xunit.xml
     - name: upload results
       uses: actions/upload-artifact@v3
       with: 
