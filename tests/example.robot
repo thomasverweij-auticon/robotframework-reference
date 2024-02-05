@@ -1,3 +1,8 @@
+*** Settings ***
+Resource    ../resources/common.resource
+
+
 *** Test Cases ***
 Example Test
-    Log  Hello World
+    Custom Keyword Demo    %{EXAMPLE_ENV}
+    

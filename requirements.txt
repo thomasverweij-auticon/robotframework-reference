@@ -1,1 +1,3 @@
-robotframework
+robotframework==7.*
+python-dotenv==1.*
+ipython==8.*
