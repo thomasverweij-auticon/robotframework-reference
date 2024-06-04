@@ -1,11 +1,11 @@
 # Robot Framework Reference Project
 Reference Project containing:
-- Simple browser test
+- Simple browser test with Playwright backend
 - Simple test with custom keyword
 - Example pipeline (workflow) for Github Actions
 - Example pipeline for Azure DevOps
-- Robotidy
-- Default Configuration for VSCode
+- Robotidy configuration
+- VSCode configuration
 
 ## Requirements
 - Python
