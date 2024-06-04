@@ -6,7 +6,19 @@
             "name": "Robot Framework: Launch template",
             "request": "launch",
             "terminal": "integrated",
-            "args": ["--outputdir","results"]
+            "args": ["--argumentfile","${input:args}","--outputdir","results"]
+        }
+    ],
+    "inputs": [
+        {
+            "type": "pickString",
+            "id": "args",
+            "description": "Choose argument file:",
+            "options": [
+                "./config/headed.txt",
+                "./config/headless.txt"
+            ],
+            "default": "./config/headed.txt"
         }
     ]
 }
