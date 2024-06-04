@@ -1,3 +1,4 @@
 {
-    "robot.editor.4spacesTab": false
+    "robot.editor.4spacesTab": false,
+    "robot.codeFormatter": "robotidy"
 }

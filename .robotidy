@@ -1,0 +1,10 @@
+configure = [
+    "SplitTooLongLine:line_length=140",
+    "RenameVariables:enabled=True",
+    "AlignKeywordsSection:enabled=True:alignment_type=auto:handle_too_long=compact_overflow",
+    "AlignTestCasesSection:enabled=True:alignment_type=auto:handle_too_long=compact_overflow",
+    "AlignTemplatedTestCases:enabled=True",
+    "IndentNestedKeywords:enabled=True",
+    "NormalizeAssignments:enabled=True:equal_sign_type=remove",
+    "RenameKeywords:enabled=True"
+]

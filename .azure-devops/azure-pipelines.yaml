@@ -10,16 +10,17 @@ schedules:
 steps:
 - task: UsePythonVersion@0
   inputs:
-    versionSpec: '3.11'
-
+    versionSpec: '3.12'
+- task: UseNode@1
+  inputs:
+    version: '20.x'
 - script: |
     python -m pip install --upgrade pip
-    pip install -r requirements.txt
+    pip install --upgrade -r requirements.txt
+    rfbrowser init
   displayName: 'Install dependencies'
-
 - script: |
     robot --output results tests
-
 - task: PublishPipelineArtifact@1
   inputs:
     targetPath: '$(Pipeline.Workspace)/results' 

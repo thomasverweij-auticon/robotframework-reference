@@ -1,3 +1,5 @@
 robotframework==7.*
 python-dotenv==1.*
 ipython==8.*
+robotframework-tidy==4.*
+robotframework-browser==18.*
