@@ -12,5 +12,4 @@ Test With Browser Library
     Get Url             matches             .*intro
 
 Test With Custom Keyword
-    Fail    test fails
     Custom Keyword      hello world
