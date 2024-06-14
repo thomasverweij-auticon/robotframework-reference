@@ -4,4 +4,4 @@ robotframework-browser==18.*
 python-dotenv==1.*
 ipython==8.*
 pyyaml==6.*
-allure-robotframework=2.*
+allure-robotframework==2.*
