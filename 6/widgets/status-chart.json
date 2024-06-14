@@ -1,0 +1,1 @@
+[{"uid":"964d40bf00b38f29","name":"Test With Custom Keyword","time":{"start":1718379610703,"stop":1718379610706,"duration":3},"status":"failed","severity":"normal"},{"uid":"acb606ef201bd1f2","name":"Test With Browser Library","time":{"start":1718379609994,"stop":1718379610662,"duration":668},"status":"passed","severity":"normal"}]
