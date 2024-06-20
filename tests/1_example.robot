@@ -1,9 +1,12 @@
 *** Settings ***
 Resource    ../resources/common.resource
-Library     Browser
+Variables   ../${testdata_path}/1_example.yaml
 
 
 *** Test Cases ***
+Basic Test With Data
+    Log To Console      ${environment_specific_data}
+
 Test With Browser Library
     New Page            ${playwright_url}
     Get Title           matches             Playwright

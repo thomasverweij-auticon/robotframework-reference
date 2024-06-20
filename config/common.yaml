@@ -1,1 +1,2 @@
 playwright_url: https://playwright.dev/
+testdata_path: ./data/test
