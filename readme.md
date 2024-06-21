@@ -6,6 +6,10 @@ Reference Project containing:
 - Example pipeline for Azure DevOps
 - Robotidy configuration
 - VSCode configuration
+- Allure workflow for Github Pages
+
+## Example Allure report
+https://thomasverweij-auticon.github.io/robotframework-reference
 
 ## Requirements
 - Python
